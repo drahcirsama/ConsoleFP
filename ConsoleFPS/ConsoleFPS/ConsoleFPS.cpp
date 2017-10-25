@@ -82,6 +82,35 @@ short get_map_avatar_direction() {
 		return '^';
 }
 
+class Player {
+
+	private:
+		float fXPos = 8.0f;
+		float fYPos = 8.0f;
+		float fViewAngle = 0.0f;
+		float fLookSpeed = 1.5f;
+		float fMoveSpeed = 7.5f;
+
+	public:
+		float getXPos() { return fXPos; };
+		float getYPos() { return fYPos; };
+		float getViewAngle() { return fViewAngle; };
+		float getLookSpeed() { return fLookSpeed; }
+		float getMoveSpeed() { return fMoveSpeed; }
+
+		float setXPos(float value) { fXPos = value; };
+		float setYPos(float value) { fYPos = value; };
+		float setViewAngle(float value) { fViewAngle = value; };
+		float setLookSpeed(float value) { fLookSpeed = value; }
+		float setMoveSpeed(float value) { fMoveSpeed = value; }
+
+		Player() {}
+		Player(float xPos, float yPos) {
+			setXPos(xPos);
+			setYPos(yPos);
+		}
+};
+
 int main()
 {
 	//Create Screen Buffer
@@ -97,6 +126,7 @@ int main()
 	auto tp1 = chrono::system_clock::now();
 	auto tp2 = chrono::system_clock::now();
 	bool refreshScreen = true;
+	Player player1;
 
 	//Game Loop
 	while (true) {
@@ -105,7 +135,7 @@ int main()
 		tp1 = tp2;
 		float fElapsedTime = elapsedTime.count();
 
-		// Controls
+		// Controlsjjj
 		// Handle CCW Rotation
 		if (GetKey('A'))
 		{

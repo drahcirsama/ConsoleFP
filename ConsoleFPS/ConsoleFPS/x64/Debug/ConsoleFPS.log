@@ -1,0 +1,4 @@
+﻿  ConsoleFPS.cpp
+c:\users\surface pro 2\documents\github\consolefp\consolefps\consolefps\consolefps.cpp(28): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\surface pro 2\documents\github\consolefp\consolefps\consolefps\consolefps.cpp(252): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  ConsoleFPS.vcxproj -> C:\Users\Surface Pro 2\Documents\GitHub\ConsoleFP\ConsoleFPS\x64\Debug\ConsoleFPS.exe

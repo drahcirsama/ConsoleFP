@@ -1,5 +1,1 @@
-﻿  ConsoleFPS.cpp
-c:\users\richard\documents\visual studio 2017\projects\consolefps\consolefps\consolefps.cpp(28): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\richard\documents\visual studio 2017\projects\consolefps\consolefps\consolefps.cpp(222): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  ConsoleFPS.vcxproj -> C:\Users\richard\Documents\Visual Studio 2017\Projects\ConsoleFPS\Debug\ConsoleFPS.exe
-  ConsoleFPS.vcxproj -> C:\Users\richard\Documents\Visual Studio 2017\Projects\ConsoleFPS\Debug\ConsoleFPS.pdb (Partial PDB)
+﻿LINK : fatal error LNK1104: cannot open file 'gdi32.lib'
